@@ -17,7 +17,7 @@ function EsercizioTre() {
     setEmail("");
   };
   return (
-    <div>
+    <div className="container">
       <h2>Aggiunta di un utente</h2>
 
       <form onSubmit={handleSubmit}>

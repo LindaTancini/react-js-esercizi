@@ -16,7 +16,7 @@ function EsercizioUno() {
     setPassword("");
   };
   return (
-    <div>
+    <div className="container">
       <h2>Registrazione di un utente</h2>
 
       <form onSubmit={handleSubmit}>

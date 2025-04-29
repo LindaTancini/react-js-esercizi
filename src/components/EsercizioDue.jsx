@@ -16,7 +16,7 @@ function EsercizioDue() {
       );
   }, []);
   return (
-    <div>
+    <div className="container">
       <h2>Lista utenti</h2>
       <ul>
         {users.map((user) => (

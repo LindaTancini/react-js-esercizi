@@ -7,42 +7,42 @@
 
 /* NAVBAR */
 nav {
-  background-color: #333;
+  background-color: #cdb4db;
   padding: 10px;
   display: flex;
   gap: 15px;
 }
 
 nav a {
-  color: #ccc;
+  color: #5c5470;
   text-decoration: none;
   font-weight: 500;
 }
 
 nav a:hover {
-  color: white;
+  color: #000;
 }
 
 nav a.active {
-  color: #fff;
+  color: #000;
   font-weight: bold;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #000;
 }
 
 /* CONTAINER */
 .container {
   max-width: 800px;
   margin: 30px auto;
-  background: white;
+  background: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(173, 127, 168, 0.2);
 }
 
 /* TITOLI */
 h1,
 h2 {
-  color: #333;
+  color: #5c5470;
   margin-bottom: 20px;
 }
 
@@ -58,19 +58,33 @@ input[type="email"],
 textarea,
 select {
   padding: 8px;
-  border: 1px solid #aaa;
+  border: 1px solid #ffafcc;
   border-radius: 4px;
+  background-color: #fff0f6;
 }
 
+/* BUTTON */
 button {
+  margin: 10px 5px;
   padding: 10px 15px;
-  background-color: #0077cc;
-  color: white;
+  background-color: #a2d2ff;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
+  font-size: 14px;
+  color: #000;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #005fa3;
+  background-color: #bde0fe;
+}
+
+/* IMAGE */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-top: 10px;
+  border: 3px solid #ffc8dd;
 }

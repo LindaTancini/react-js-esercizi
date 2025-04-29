@@ -6,6 +6,7 @@ import EsercizioUno from "./components/EsercizioUno";
 import EsercizioQuattro from "./components/EsercizioQuattro";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import EsercizioGatti from "./components/EsercizioGatti";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/esercizio1" element={<EsercizioUno />} />
         <Route path="/esercizio2" element={<EsercizioDue />} />
         <Route path="/esercizio3" element={<EsercizioTre />} />
+        <Route path="/eserciziogatti" element={<EsercizioGatti />}></Route>
       </Routes>
     </Router>
   );

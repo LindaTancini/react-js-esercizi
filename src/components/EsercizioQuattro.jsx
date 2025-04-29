@@ -9,6 +9,7 @@ function EsercizioQuattro() {
       <NavLink to="/esercizio1">Esercizio 1</NavLink>
       <NavLink to="/esercizio2">Esercizio 2</NavLink>
       <NavLink to="/esercizio3">Esercizio 3</NavLink>
+      <NavLink to="/eserciziogatti">Esercizio Gatti</NavLink>
     </nav>
   );
 }

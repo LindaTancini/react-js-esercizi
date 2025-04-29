@@ -1,5 +1,12 @@
-import { useState } from "react";
+//IMPORTAZIONI
+import EsercizioUno from "./components/EsercizioUno";
 
-function App() {}
+function App() {
+  return (
+    <>
+      <EsercizioUno />
+    </>
+  );
+}
 
 export default App;

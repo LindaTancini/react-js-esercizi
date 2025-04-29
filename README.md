@@ -71,35 +71,14 @@ Creare una piccola SPA con due pagine: `Home` e `About`.
 
 ---
 
-## 💡 Bonus (opzionali)
-
-- Aggiungi validazione dei campi nei form
-- Mostra un messaggio "Loading..." durante la fetch
-- Permetti di cancellare un utente dalla lista
-- Aggiungi una pagina 404 per rotte non esistenti
-
----
-
 ## 🐱 Bonus – The Cat API (Immagini e razze di gatti)
 
 **Obiettivo:**  
-Usare una API gratuita per ottenere immagini casuali di gatti o informazioni sulle razze.
+Usare una API gratuita per ottenere immagini casuali di gatti
 
 **URL:**  
-[https://thecatapi.com](https://thecatapi.com)
+https://api.thecatapi.com/v1/images/search
 
 **Caratteristiche:**
 
 - Migliaia di immagini di gatti.
-- Informazioni dettagliate su razze, caratteristiche e personalità.
-- Richiede una chiave API gratuita (basta registrarsi).
-
-**Esempio di fetch per ottenere un’immagine casuale:**
-
-```javascript
-fetch("https://api.thecatapi.com/v1/images/search", {
-  headers: { "x-api-key": "YOUR_API_KEY" },
-})
-  .then((response) => response.json())
-  .then((data) => console.log(data[0].url));
-```
